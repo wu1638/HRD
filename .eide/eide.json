@@ -606,6 +606,8 @@
       "uploadConfigMap": {},
       "custom_dep": {
         "name": "default",
+        "sourceDirList": [],
+        "libList": [],
         "incList": [
           "../Core/Inc",
           "../LWIP/App",
@@ -631,10 +633,11 @@
           "../modbus/include",
           "../modbus/tcp",
           "../ModbusPort",
+          "../modbus/include",
+          "../modbus/tcp",
+          "../ModbusPort",
           "../MDK-ARM/RTE/_Ethernet"
         ],
-        "libList": [],
-        "sourceDirList": [],
         "defineList": [
           "USE_HAL_DRIVER",
           "STM32F407xx"
